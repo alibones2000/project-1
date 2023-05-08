@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <script src="index.js"></script>
- 
-    <title>Document</title>
+ <script defer src="index.js"></script>
+ <link rel="stylesheet" href="style.css">
+    <title>Top 10 Movies Of All Time</title>
 </head>
 <body>
+  
+    <body>
+        <div>
+          <h1>Top 10 Movies Of All Time</h1>
+          <div id="movie-list">
+          
+          </div>
+        
+          <!-- movie stats -->
+          <div id="movie-detail">
+            <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+       
+          </div>
+      
+       
+        <div id="movie-titles">
+
+         <div id="movie-info">
+          <h2 class="name"></h2>
+          <h3 class="year"></h3>
+          <h4 class="director"></h4>
+          <h5 class="genre"></h5>
+          <p id="description">
+
+          </p>
+        </div>
+
+        <div>
+           <iframe width="420" height="315"
+          src="">
+         
+          </iframe>
+        </div>
     
-</body>
-</html>
+        </div>
+      
+        <h3>ranking:</h3>
+        <p>
+          <span id='ranking-display'>Insert rating here</span> / 10
+        </p>
+        
+      
+        
+        <!-- <form id="edit-movie">
+          <h4>Create Your Rank</h4>
+          <label for="ranking">Rating: </label>
+          <input type="number" name="ranking" id="new-ranking" />
+          
+          <input type="submit" value="Update" />
+        </form> -->
+        <form id="new-movie">
+            <h4>Add New movie</h4>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="new-name" />
+            <label for="director">Director: </label>
+            <input type="text" name="director" id="new-director" />
+            <label for="genre">Genre: </label>
+            <input type="text" name="genre" id="new-genre" />
+            <label for="image">Image: </label>
+            <input type="text" name="image" id="new-image" />
+            <label for="rating">Rating: </label>
+            <input type="number" name="rating" id="new-rating" />
+            <label for="new-comment">Comment: </label>
+            <textarea name="new-comment" id="new-comment"></textarea>
+            <input type="submit" value="Create" />
+          </form> 
+      </body>
+      
+      </html>
